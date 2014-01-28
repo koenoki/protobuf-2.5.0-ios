@@ -15,7 +15,7 @@
 		AB4FA817189733FB00DBC05E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA816189733FB00DBC05E /* UIKit.framework */; };
 		AB4FA81A189733FB00DBC05E /* libprotobuf-2.5.0-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA802189733FA00DBC05E /* libprotobuf-2.5.0-ios.a */; };
 		AB4FA820189733FB00DBC05E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB4FA81E189733FB00DBC05E /* InfoPlist.strings */; };
-		AB4FA822189733FB00DBC05E /* protobuf_2_5_0_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.m */; };
+		AB4FA822189733FB00DBC05E /* protobuf_2_5_0_iosTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.mm */; };
 		AB4FA95D1897344F00DBC05E /* descriptor.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA88A1897344E00DBC05E /* descriptor.cc */; };
 		AB4FA95E1897344F00DBC05E /* descriptor.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA88C1897344E00DBC05E /* descriptor.pb.cc */; };
 		AB4FA95F1897344F00DBC05E /* descriptor_database.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA88F1897344E00DBC05E /* descriptor_database.cc */; };
@@ -46,6 +46,7 @@
 		AB4FA9A31897344F00DBC05E /* unknown_field_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA9251897344F00DBC05E /* unknown_field_set.cc */; };
 		AB4FA9A51897344F00DBC05E /* wire_format.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA9281897344F00DBC05E /* wire_format.cc */; };
 		AB4FA9A61897344F00DBC05E /* wire_format_lite.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA92A1897344F00DBC05E /* wire_format_lite.cc */; };
+		AB9DE9ED18977B930070D63F /* addressbook.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB9DE9EB18977B930070D63F /* addressbook.pb.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +83,7 @@
 		AB4FA816189733FB00DBC05E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AB4FA81D189733FB00DBC05E /* protobuf-2.5.0-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "protobuf-2.5.0-iosTests-Info.plist"; sourceTree = "<group>"; };
 		AB4FA81F189733FB00DBC05E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protobuf_2_5_0_iosTests.m; sourceTree = "<group>"; };
+		AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = protobuf_2_5_0_iosTests.mm; sourceTree = "<group>"; };
 		AB4FA88A1897344E00DBC05E /* descriptor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = descriptor.cc; sourceTree = "<group>"; };
 		AB4FA88B1897344E00DBC05E /* descriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descriptor.h; sourceTree = "<group>"; };
 		AB4FA88C1897344E00DBC05E /* descriptor.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = descriptor.pb.cc; sourceTree = "<group>"; };
@@ -153,6 +154,8 @@
 		AB4FA92A1897344F00DBC05E /* wire_format_lite.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wire_format_lite.cc; sourceTree = "<group>"; };
 		AB4FA92B1897344F00DBC05E /* wire_format_lite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wire_format_lite.h; sourceTree = "<group>"; };
 		AB4FA92C1897344F00DBC05E /* wire_format_lite_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wire_format_lite_inl.h; sourceTree = "<group>"; };
+		AB9DE9EB18977B930070D63F /* addressbook.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = addressbook.pb.cc; path = "../../protobuf-2.5.0/examples/addressbook.pb.cc"; sourceTree = "<group>"; };
+		AB9DE9EC18977B930070D63F /* addressbook.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addressbook.pb.h; path = "../../protobuf-2.5.0/examples/addressbook.pb.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,7 +232,9 @@
 		AB4FA81B189733FB00DBC05E /* protobuf-2.5.0-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.m */,
+				AB9DE9EB18977B930070D63F /* addressbook.pb.cc */,
+				AB9DE9EC18977B930070D63F /* addressbook.pb.h */,
+				AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.mm */,
 				AB4FA81C189733FB00DBC05E /* Supporting Files */,
 			);
 			path = "protobuf-2.5.0-iosTests";
@@ -464,7 +469,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4FA822189733FB00DBC05E /* protobuf_2_5_0_iosTests.m in Sources */,
+				AB9DE9ED18977B930070D63F /* addressbook.pb.cc in Sources */,
+				AB4FA822189733FB00DBC05E /* protobuf_2_5_0_iosTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +661,7 @@
 				AB4FA827189733FB00DBC05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB4FA828189733FB00DBC05E /* Build configuration list for PBXNativeTarget "protobuf-2.5.0-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +670,7 @@
 				AB4FA82A189733FB00DBC05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
