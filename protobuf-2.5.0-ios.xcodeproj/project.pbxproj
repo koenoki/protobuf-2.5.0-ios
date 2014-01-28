@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4FA806189733FA00DBC05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA805189733FA00DBC05E /* Foundation.framework */; };
+		AB4FA80B189733FA00DBC05E /* protobuf_2_5_0_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB4FA80A189733FA00DBC05E /* protobuf_2_5_0_ios.h */; };
+		AB4FA80D189733FA00DBC05E /* protobuf_2_5_0_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA80C189733FA00DBC05E /* protobuf_2_5_0_ios.m */; };
+		AB4FA814189733FB00DBC05E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA813189733FB00DBC05E /* XCTest.framework */; };
+		AB4FA815189733FB00DBC05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA805189733FA00DBC05E /* Foundation.framework */; };
+		AB4FA817189733FB00DBC05E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA816189733FB00DBC05E /* UIKit.framework */; };
+		AB4FA81A189733FB00DBC05E /* libprotobuf-2.5.0-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FA802189733FA00DBC05E /* libprotobuf-2.5.0-ios.a */; };
+		AB4FA820189733FB00DBC05E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB4FA81E189733FB00DBC05E /* InfoPlist.strings */; };
+		AB4FA822189733FB00DBC05E /* protobuf_2_5_0_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB4FA818189733FB00DBC05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB4FA7FA189733FA00DBC05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4FA801189733FA00DBC05E;
+			remoteInfo = "protobuf-2.5.0-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB4FA800189733FA00DBC05E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AB4FA80B189733FA00DBC05E /* protobuf_2_5_0_ios.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB4FA802189733FA00DBC05E /* libprotobuf-2.5.0-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprotobuf-2.5.0-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4FA805189733FA00DBC05E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB4FA809189733FA00DBC05E /* protobuf-2.5.0-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "protobuf-2.5.0-ios-Prefix.pch"; sourceTree = "<group>"; };
+		AB4FA80A189733FA00DBC05E /* protobuf_2_5_0_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = protobuf_2_5_0_ios.h; sourceTree = "<group>"; };
+		AB4FA80C189733FA00DBC05E /* protobuf_2_5_0_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protobuf_2_5_0_ios.m; sourceTree = "<group>"; };
+		AB4FA812189733FB00DBC05E /* protobuf-2.5.0-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "protobuf-2.5.0-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4FA813189733FB00DBC05E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB4FA816189733FB00DBC05E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB4FA81D189733FB00DBC05E /* protobuf-2.5.0-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "protobuf-2.5.0-iosTests-Info.plist"; sourceTree = "<group>"; };
+		AB4FA81F189733FB00DBC05E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protobuf_2_5_0_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4FA7FF189733FA00DBC05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4FA806189733FA00DBC05E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4FA80F189733FB00DBC05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4FA814189733FB00DBC05E /* XCTest.framework in Frameworks */,
+				AB4FA817189733FB00DBC05E /* UIKit.framework in Frameworks */,
+				AB4FA81A189733FB00DBC05E /* libprotobuf-2.5.0-ios.a in Frameworks */,
+				AB4FA815189733FB00DBC05E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB4FA7F9189733FA00DBC05E = {
+			isa = PBXGroup;
+			children = (
+				AB4FA807189733FA00DBC05E /* protobuf-2.5.0-ios */,
+				AB4FA81B189733FB00DBC05E /* protobuf-2.5.0-iosTests */,
+				AB4FA804189733FA00DBC05E /* Frameworks */,
+				AB4FA803189733FA00DBC05E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB4FA803189733FA00DBC05E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FA802189733FA00DBC05E /* libprotobuf-2.5.0-ios.a */,
+				AB4FA812189733FB00DBC05E /* protobuf-2.5.0-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB4FA804189733FA00DBC05E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FA805189733FA00DBC05E /* Foundation.framework */,
+				AB4FA813189733FB00DBC05E /* XCTest.framework */,
+				AB4FA816189733FB00DBC05E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB4FA807189733FA00DBC05E /* protobuf-2.5.0-ios */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FA80A189733FA00DBC05E /* protobuf_2_5_0_ios.h */,
+				AB4FA80C189733FA00DBC05E /* protobuf_2_5_0_ios.m */,
+				AB4FA808189733FA00DBC05E /* Supporting Files */,
+			);
+			path = "protobuf-2.5.0-ios";
+			sourceTree = "<group>";
+		};
+		AB4FA808189733FA00DBC05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FA809189733FA00DBC05E /* protobuf-2.5.0-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB4FA81B189733FB00DBC05E /* protobuf-2.5.0-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FA821189733FB00DBC05E /* protobuf_2_5_0_iosTests.m */,
+				AB4FA81C189733FB00DBC05E /* Supporting Files */,
+			);
+			path = "protobuf-2.5.0-iosTests";
+			sourceTree = "<group>";
+		};
+		AB4FA81C189733FB00DBC05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FA81D189733FB00DBC05E /* protobuf-2.5.0-iosTests-Info.plist */,
+				AB4FA81E189733FB00DBC05E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4FA801189733FA00DBC05E /* protobuf-2.5.0-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4FA825189733FB00DBC05E /* Build configuration list for PBXNativeTarget "protobuf-2.5.0-ios" */;
+			buildPhases = (
+				AB4FA7FE189733FA00DBC05E /* Sources */,
+				AB4FA7FF189733FA00DBC05E /* Frameworks */,
+				AB4FA800189733FA00DBC05E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "protobuf-2.5.0-ios";
+			productName = "protobuf-2.5.0-ios";
+			productReference = AB4FA802189733FA00DBC05E /* libprotobuf-2.5.0-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB4FA811189733FB00DBC05E /* protobuf-2.5.0-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4FA828189733FB00DBC05E /* Build configuration list for PBXNativeTarget "protobuf-2.5.0-iosTests" */;
+			buildPhases = (
+				AB4FA80E189733FB00DBC05E /* Sources */,
+				AB4FA80F189733FB00DBC05E /* Frameworks */,
+				AB4FA810189733FB00DBC05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB4FA819189733FB00DBC05E /* PBXTargetDependency */,
+			);
+			name = "protobuf-2.5.0-iosTests";
+			productName = "protobuf-2.5.0-iosTests";
+			productReference = AB4FA812189733FB00DBC05E /* protobuf-2.5.0-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4FA7FA189733FA00DBC05E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Keiji Oenoki";
+			};
+			buildConfigurationList = AB4FA7FD189733FA00DBC05E /* Build configuration list for PBXProject "protobuf-2.5.0-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB4FA7F9189733FA00DBC05E;
+			productRefGroup = AB4FA803189733FA00DBC05E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4FA801189733FA00DBC05E /* protobuf-2.5.0-ios */,
+				AB4FA811189733FB00DBC05E /* protobuf-2.5.0-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4FA810189733FB00DBC05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4FA820189733FB00DBC05E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4FA7FE189733FA00DBC05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4FA80D189733FA00DBC05E /* protobuf_2_5_0_ios.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4FA80E189733FB00DBC05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4FA822189733FB00DBC05E /* protobuf_2_5_0_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB4FA819189733FB00DBC05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4FA801189733FA00DBC05E /* protobuf-2.5.0-ios */;
+			targetProxy = AB4FA818189733FB00DBC05E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB4FA81E189733FB00DBC05E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4FA81F189733FB00DBC05E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB4FA823189733FB00DBC05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB4FA824189733FB00DBC05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB4FA826189733FB00DBC05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/protobuf_2_5_0_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protobuf-2.5.0-ios/protobuf-2.5.0-ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB4FA827189733FB00DBC05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/protobuf_2_5_0_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protobuf-2.5.0-ios/protobuf-2.5.0-ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB4FA829189733FB00DBC05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protobuf-2.5.0-ios/protobuf-2.5.0-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "protobuf-2.5.0-iosTests/protobuf-2.5.0-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB4FA82A189733FB00DBC05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protobuf-2.5.0-ios/protobuf-2.5.0-ios-Prefix.pch";
+				INFOPLIST_FILE = "protobuf-2.5.0-iosTests/protobuf-2.5.0-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4FA7FD189733FA00DBC05E /* Build configuration list for PBXProject "protobuf-2.5.0-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4FA823189733FB00DBC05E /* Debug */,
+				AB4FA824189733FB00DBC05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4FA825189733FB00DBC05E /* Build configuration list for PBXNativeTarget "protobuf-2.5.0-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4FA826189733FB00DBC05E /* Debug */,
+				AB4FA827189733FB00DBC05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB4FA828189733FB00DBC05E /* Build configuration list for PBXNativeTarget "protobuf-2.5.0-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4FA829189733FB00DBC05E /* Debug */,
+				AB4FA82A189733FB00DBC05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB4FA7FA189733FA00DBC05E /* Project object */;
+}
